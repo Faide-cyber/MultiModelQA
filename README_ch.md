@@ -18,7 +18,7 @@
 
 通过这些扩展功能，MultiModelQA 不仅能够满足基本的多模型问答需求，还为开发者提供了灵活的定制能力，支持构建更智能、更高效的问答系统。
 
-<img src="https://github.com/Faide-cyber/MultiModelQA/blob/main/images/Demo.png" width="800px">
+<img src="https://github.com/Faide-cyber/MultiModelQA/blob/main/img/Demo.png" width="800px">
 
 ### 2. 系统架构与功能特点
 
