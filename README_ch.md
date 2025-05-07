@@ -1,10 +1,22 @@
-#### [English Doc](README.md)
+# MultiModelQA
+
+#### [English Doc](https://github.com/Faide-cyber/MultiModelQA)
 
 ![Static Badge](https://img.shields.io/badge/%40Github-Faide-%2300FFFF) ![Static Badge](https://img.shields.io/badge/Platform-Dify-%238c37dc) ![Static Badge](https://img.shields.io/badge/Version-1.0.0-%23e87435) ![Static Badge](https://img.shields.io/badge/License-GNU3.0-%2314bbc1)
 
 ### 1. 项目概述
 
-**MultiModelQA** 是一个基于 Dify 平台构建的多模型并行问答工作流，整合了当前主流的最新 AI 大模型，包括 DeepSeek-V3、Qwen3、Doubao-1.5、Claude-3.7、Gemini-2.5 等，实现单一问题多模型并行回答的功能。用户可以通过一个界面同时获取多个 AI 模型的回答，便于比较和分析不同模型的输出差异。
+**MultiModelQA** 是一个基于 Dify 平台构建的多模型并行问答工作流，整合了当前主流的最新 AI 大模型，包括 DeepSeek-V3、Qwen3、Doubao-1.5、Claude-3.7、Gemini-2.5 等，实现单一问题多模型并行回答的功能。用户可以通过一个界面同时获取多个 AI 模型的回答，便于比较和分析不同模型的输出差异，此外，MultiModelQA 提供了高度的可扩展性，开发者在使用本工作流后，可以根据具体需求自行拓展功能，例如：
+
+- 答案整合与优化：通过 Dify 的变量聚合器和 Jinja2 模板功能，开发者可以将多个模型的回答进行整合，生成一个更为全面和准确的最终回答。 
+
+- 动态模型选择：利用 Dify 的条件判断节点（如 IF/ELSE），开发者可以根据用户输入的问题类型，自动选择最适合的模型进行回答，提高回答的相关性和准确性。 
+
+- 自定义工具集成：Dify 支持集成自定义工具，开发者可以将外部 API 或自定义函数作为工具节点集成到工作流中，扩展系统的功能。 
+
+- 并行处理与性能优化：Dify 工作流支持并行处理多个分支，开发者可以通过并行执行多个模型的调用，显著提升系统的响应速度和处理效率。 
+
+通过这些扩展功能，MultiModelQA 不仅能够满足基本的多模型问答需求，还为开发者提供了灵活的定制能力，支持构建更智能、更高效的问答系统。
 
 <img src="./snapshots/MultiModelQA-Demo.png" width="800px">
 
@@ -73,11 +85,11 @@
 
 本程序是以希望它会有用的方式发布，但不提供任何明示或暗示的保证，包括但不限于适销性或特定用途的适用性。请参阅GNU通用公共许可证以获取更多详细信息。
 
-您应该已经随此程序收到了GNU通用公共许可证的副本。如果没有，请参阅http://www.gnu.org/licenses/。
+您应该已经随此程序收到了GNU通用公共许可证的副本。如果没有，请参阅http://www.gnu.org/licenses/
 
 ### 8. 免责声明
 
-**MultiModelQA**（以下简称"本项目"）仅供学习和研究使用，禁止将其用于任何非法用途。如果您选择使用本项目的任何部分，您必须遵守所有相关法律和规定，并承担由此产生的所有责任。
+**MultiModelQA**（以下简称“本项目”）（以下简称“本项目”）仅供学习和研究使用，禁止将其用于任何非法用途。如果您选择使用本项目的任何部分，您必须遵守所有相关法律和规定，并承担由此产生的所有责任。
 
 作者不对因使用本项目而导致的任何损失或损害负责。如果您选择使用本项目的任何部分，您应该自己承担所有风险和责任。
 
@@ -89,8 +101,10 @@
 
 ### 9. 附加信息
 
+### 9. 附加信息
+
 - **最新源码与文档**
-   请访问 GitHub 仓库获取最新的源码及文档更新：https://github.com/Faide-cyber/MultiModelQA
+   请访问 GitHub 仓库获取最新的源码及文档更新：https://github.com/Faide-cyber/
 - **Dify 相关文档**
    详见 [Dify 官方文档](https://docs.dify.ai/)
 
