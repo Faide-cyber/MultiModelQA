@@ -19,7 +19,7 @@ Moreover, MultiModelQA offers high extensibility. Developers can expand the work
 
 These features make MultiModelQA not only suitable for standard QA tasks but also flexible enough for building smarter and more efficient question answering systems.
 
-<img src="https://github.com/Faide-cyber/MultiModelQA/blob/main/images/Demo.png" width="800px">
+<img src="https://github.com/Faide-cyber/MultiModelQA/blob/main/img/Demo.png" width="800px">
 
 ### 2. Architecture & Key Features
 
