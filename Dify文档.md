@@ -194,7 +194,10 @@ m5Mf3E8X2iH8ZxiBASNy3gm3cbmF2OPjuIHBJZ2YXXX
 
 点击下方的接收消息，设置API接收
 
-URL 填写示例：http://服务器的公网IP:2290/callback/command
+URL 填写示例：
+```cmd
+http://服务器的公网IP:2290/callback/command
+```
 
 Token，点击随机获取，记录下来得到 Token
 
@@ -549,8 +552,7 @@ Reranker模型也可以用
 
 ##### 2.3.1 RAG对话架构
 
-<img src="https://github.com/Faide-cyber/MultiModelQA/blob/main/img/v2-d00d6b7ca7b1045f965e3eb74248c618_r-17437809903552-17438250691731.jpg" width="800px">
-
+<img src="https://github.com/Faide-cyber/MultiModelQA/blob/main/img/v2-d00d6b7ca7b1045f965e3eb74248c618_r.jpg" width="800px">
 
 流程类文件尽量少分段 政策类文件多分段 推荐使用工作流或工具插件 可以提升检索精度
 
