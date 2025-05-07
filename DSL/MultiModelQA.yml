@@ -324,7 +324,7 @@ workflow:
           ---'
         desc: ''
         selected: true
-        title: 分别回答
+        title: 并行回答
         type: answer
         variables: []
       height: 314
